@@ -2,7 +2,8 @@
 
 ## 📋 개요
 스트레칭 리마인더는 정기적으로 스트레칭 알림을 보내주는 Windows 데스크톱 애플리케이션입니다.  
-장시간 컴퓨터 작업으로 인한 건강 문제를 예방하기 위해 개발되었습니다.
+장시간 컴퓨터 작업으로 인한 건강 문제를 예방하기 위해 개발되었습니다.  
+~~본인이 쓰려고 만들었습니다.~~
 
 ## ✨ 주요 기능
 - ⏰ **정기 알림**: 설정 가능한 간격으로 스트레칭 알림
@@ -66,8 +67,8 @@ stretch-reminder/
 
 ```json
 {
-    "interval_min": 30.0,
-    "icon_path": "custom_icon.ico",
+    "interval_min": 30.0,        // 알림 간격 (분)
+    "icon_path": "icon.ico",
     "log_file": "stretch_reminder.log",
     "auto_start": true,
     "minimize_to_tray": true
@@ -86,10 +87,5 @@ stretch-reminder/
 - GUI 설정 창
 - 자동 시작 기능
 - 시스템 트레이 지원
-
-
-## 📄 라이선스
-이 프로젝트는 MIT 라이선스 하에 배포됩니다.
-
 
 ---
