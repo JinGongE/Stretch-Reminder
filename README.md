@@ -1,7 +1,7 @@
 # 스트레칭 리마인더 (Stretch Reminder)
 
 ## 📋 개요
-스트레칭 리마인더는 정기적으로 스트레칭 알림을 보내주는 Windows 데스크톱 애플리케이션입니다. 
+스트레칭 리마인더는 정기적으로 스트레칭 알림을 보내주는 Windows 데스크톱 애플리케이션입니다.  
 장시간 컴퓨터 작업으로 인한 건강 문제를 예방하기 위해 개발되었습니다.
 
 ## ✨ 주요 기능
@@ -20,7 +20,7 @@
 
 ### 실행 파일 사용
 1. 릴리즈 페이지에서 최신 버전 다운로드
-2. 압축 해제 후 `Stretch Reminder.exe` 실행
+2. `Stretch Reminder.exe` 실행
 3. 첫 실행 시 설정 파일이 자동 생성됩니다
 
 
@@ -55,11 +55,9 @@
 stretch-reminder/
 ├── stretch_reminder.py    # 메인 프로그램
 ├── config.json           # 설정 파일 (자동 생성)
-├── icon.ico             # 트레이 아이콘
 ├── stretch_reminder.log  # 로그 파일 (자동 생성)
-├── requirements.txt      # Python 의존성
-└── README.md            # 이 파일
 ```
+⚠️ **한 폴더 안에 stretch_reminder.py, config.json, stretch_reminder.log 가 있어야합니다.**
 
 ## 🔧 고급 설정
 
